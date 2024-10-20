@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          okta:
+            client-id: 0oakhs951o4MSfQB05d7
+            client-secret: zC5Z7ahog0Ryvc8VqAjqL-2d_GUin9iM71L8bRPkJ8glqPlcRF8uATbv3ceggiyL
+        provider:
+          okta:
+            authorization-uri: https://dev-04053323.okta.com/oauth2/v1/authorize
+            token-uri: https://dev-04053323.okta.com/oauth2/v1/token
+            user-info-uri: https://dev-04053323.okta.com/oauth2/v1/userinfo
+            jwk-set-uri: https://dev-04053323.okta.com/oauth2/v1/keys
